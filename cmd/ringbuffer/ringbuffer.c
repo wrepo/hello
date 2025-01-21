@@ -2,7 +2,7 @@
 
 #include "common.h"
 // #include "bpf_helper_defs.h"
-#include <linux/ptrace.h>
+// #include <linux/ptrace.h>
 
 // #ifdef __x86_64__
 #define PT_REGS_PARM1(x) ((x)->rdi)
